@@ -1,0 +1,37 @@
+{
+  "name": "jquery.uxperience",
+  "title": "jQuery UXperience Plugin",
+  "description": "Measure time spent on form",
+  "version": "0.1.0",
+  "homepage": "http://ownet.pl/",
+  "author": {
+    "name": "Jacek Brożek",
+    "email": "jacek.brozek@ownet.pl",
+    "url": "http://ownet.pl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jac33k/jquery.uxperience.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jac33k/jquery.uxperience/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-node": "~1.13.1",
+    "jasmine-jquery": "~1.3.2"
+  },
+  "keywords": [
+    "forms",
+    "ux improvement",
+    "measurement",
+    "time"
+  ]
+}
