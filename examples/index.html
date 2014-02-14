@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <title>UXperience test</title>
+  <script src="../libs/jquery.min.js"></script>
+  <script src="../jquery.uxperience.js"></script>
+</head>
+<body>
+  <form action="#" accept-charset="utf-8">
+    <input type="text" name="text" value="" placeholder="">
+    <select name="select">
+      <option value="val1">Value 1</option>
+    </select>
+    <input type="radio" name="radio" value="" placeholder="">
+    <input type="week" name="week" value="" placeholder="">
+    <input type="range" name="range" value="" placeholder="">
+    <textarea name='textarea'></textarea>
+    <input type="submit" name="submit" value="Send!">
+  </form>
+  <script type="text/javascript">
+    $('form').uxperience({
+      submit: function(data) {
+        console.log(data);
+      }
+    });
+  </script>
+</body>
+</html>
