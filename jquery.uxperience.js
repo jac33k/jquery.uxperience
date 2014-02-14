@@ -53,6 +53,13 @@
           options.submit(results);
         }
       });
+
+      // focused input - sending form by pressing Return key
+      $('input:not([type=submit])', handler).bind('keypress', function(e) {
+        if(e.which == 13) {
+          this.blur();
+        }
+      });
     };
 
     return UXperience;
